@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import AboutMe from './sections/AboutMe';
 import Portfolio from './sections/Portfolio';
@@ -11,13 +11,13 @@ const App = () => {
   return (
     <Router>
       <Header />
-      <Switch>
-        <Route path="/about" component={AboutMe} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/resume" component={Resume} />
+      <Routes>
+        <Route path="/About" component={AboutMe} />
+        <Route path="/Portfolio" component={Portfolio} />
+        <Route path="/Contact" component={Contact} />
+        <Route path="/Resume" component={Resume} />
         {/* Add more routes as needed */}
-      </Switch>
+      </Routes>
       <Footer />
     </Router>
   );

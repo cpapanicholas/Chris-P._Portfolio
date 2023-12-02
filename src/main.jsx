@@ -51,7 +51,7 @@
 
 import ReactDOM from 'react-dom';
 import App from './App';
-import './styles/App.css'; // Include the main App styles here
+import './App.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <App />
