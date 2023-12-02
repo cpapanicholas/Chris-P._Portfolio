@@ -7,22 +7,22 @@ const Navigation = () => {
     <nav>
       <ul>
         <li>
-          <NavLink to="/about" activeclassname="active">
+          <NavLink to="/About" activeclassname="active">
             About Me
           </NavLink>
         </li>
         <li>
-          <NavLink to="/portfolio" activeclassname="active">
+          <NavLink to="/Portfolio" activeclassname="active">
             Portfolio
           </NavLink>
         </li>
         <li>
-          <NavLink to="/contact" activeclassname="active">
+          <NavLink to="/Contact" activeclassname="active">
             Contact
           </NavLink>
         </li>
         <li>
-          <NavLink to="/resume" activeclassname="active">
+          <NavLink to="/Resume" activeclassname="active">
             Resume
           </NavLink>
         </li>

@@ -6,13 +6,14 @@ import Portfolio from './sections/Portfolio';
 import Contact from './sections/Contact';
 import Resume from './sections/Resume';
 import Footer from './components/Footer';
+import './app.css';
 
 const App = () => {
   return (
     <Router>
       <Header />
       <Routes>
-        <Route path="/About" component={AboutMe} />
+        <Route path="/AboutMe" component={AboutMe} />
         <Route path="/Portfolio" component={Portfolio} />
         <Route path="/Contact" component={Contact} />
         <Route path="/Resume" component={Resume} />
