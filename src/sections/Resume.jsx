@@ -28,9 +28,9 @@ const Resume = () => {
     <div>
       <h2>My Resume</h2>
       <p>
-        <strong>Resume Link:</strong>{' '}
+        
         <a href={resumeLink} target="_blank" rel="noopener noreferrer">
-          {resumeLink}
+        <strong>Resume Link</strong>{' '}
         </a>
       </p>
 
