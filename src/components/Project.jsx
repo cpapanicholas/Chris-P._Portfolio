@@ -11,7 +11,7 @@ const Project = ({ name, deployedLink, githubLink, screenshot }) => {
        
         <a href={deployedLink} target="_blank" rel="noopener noreferrer">
         <strong>Deployed Link</strong>{' '}
-          <img src={screenshot} alt={`${name} Screenshot`} style={{ maxWidth: '100%' }} />
+          {/* <img src={screenshot} alt={`${name} Screenshot`} style={{ maxWidth: '100%' }} /> */}
         </a>
       </p>
       <p>
