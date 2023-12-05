@@ -34,7 +34,7 @@ import Portfolio from './sections/Portfolio';
 import Contact from './sections/Contact';
 import Resume from './sections/Resume';
 import Footer from './components/Footer';
-import './app.css';
+import './App.css';
 
 const App = () => {
   return (

@@ -1,15 +1,15 @@
 
-  /* Reset some default styles */
 body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: 'Arial', sans-serif;
-    background-color: #15202b; /* Dark Blue */
-    color: #ffffff; /* White */
-  }
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #15202b; /* Dark Blue */
+  color: #ffffff; /* White */
+}
+
   
   header {
     background-color: #0d1117; /* Slightly Darker Blue */
