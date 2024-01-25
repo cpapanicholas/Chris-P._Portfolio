@@ -16,6 +16,18 @@ const Portfolio = () => {
       githubLink: 'https://github.com/jwhit-commit/ev-charger-locator',
       screenshot: 'src/assets/image(2).png',
     },
+    {
+      name: 'Sweat-Check',
+      deployedLink: 'https://desolate-cove-89215-d9792a7c3caa.herokuapp.com/',
+      githubLink: 'https://github.com/jwhit-commit/ev-charger-locator',
+      screenshot: 'src/assets/image(2).png',
+    },
+    {
+      name: 'Morse-Code Generator',
+      deployedLink: 'https://desolate-cove-89215-d9792a7c3caa.herokuapp.com/',
+      githubLink: 'https://github.com/jwhit-commit/ev-charger-locator',
+      screenshot: 'src/assets/image(2).png',
+    }
     // Add more projects as needed
   ];
 
