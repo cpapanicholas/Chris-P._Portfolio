@@ -6,6 +6,9 @@ import SweatCheck from '../assets/SWEAT CHECK.png'
 import HTML from '../assets/HTML.png';
 import CSS from '../assets/CSS.png'
 import JavaScript from '../assets/JAVASCRIPT.png'
+import WebAPI from '../assets/WEB APIs.png'
+import ThirdParty from '../assets/THIRDPARTY.png'
+import Server from '../assets/SERVER.png'
 const Portfolio = () => {
   // Define your project details
   const projects = [
@@ -49,19 +52,19 @@ const Portfolio = () => {
       name: 'Web APIs Assignment 4',
       deployedLink: 'https://cpapanicholas.github.io/Epsilon-Gamma-Zeta/',
       githubLink: 'https://github.com/cpapanicholas/Epsilon-Gamma-Zeta',
-      screenshot: '',
+      screenshot: WebAPI,
     },
     {
       name: 'Third-Party-APIs Assignment 5',
       deployedLink: '',
       githubLink: 'https://github.com/cpapanicholas/Gojo-Naka-Baya',
-      screenshot: '',
+      screenshot: ThirdParty,
     },
     {
       name: 'Server Side APIs Assignment 6',
       deployedLink: 'https://cpapanicholas.github.io/Ruku-Zed-Taka/',
       githubLink: 'https://github.com/cpapanicholas/Ruku-Zed-Taka',
-      screenshot: '',
+      screenshot: Server,
     },
     {
       name: 'Node JS Assignment 7',
@@ -102,26 +105,25 @@ const Portfolio = () => {
     {
       name: 'CS Assignment 13',
       deployedLink: '',
-      githubLink: '',
+      githubLink: 'https://gist.github.com/cpapanicholas/4c3e2df25a938b6b82d52e1f7f9dcbe9',
       screenshot: '',
     },
     {
       name: 'NoSQL Assignment 14',
       deployedLink: '',
-      githubLink: '',
-      screenshot: '',
+      githubLink: 'https://github.com/cpapanicholas/Akanatsu-Social',
+      video: 'https://drive.google.com/file/d/1WytJAob8E5SFEkzZkpUPL-yh3qFENaiK/view',
     },
     {
       name: 'PWA Assignment 15',
-      deployedLink: '',
-      githubLink: '',
+      deployedLink: 'https://aioto-pwa.onrender.com',
+      githubLink: 'https://github.com/cpapanicholas/Aioto-PWA',
       screenshot: '',
     },
     {
       name: 'React Assignment 16',
-      deployedLink: '',
-      githubLink: '',
-      screenshot: '',
+      deployedLink: 'https://sparkling-gingersnap-7df8bb.netlify.app/',
+      githubLink: 'https://github.com/cpapanicholas/Chris-P._Portfolio',
     },
     {
       name: 'MERN Assignment 17',
