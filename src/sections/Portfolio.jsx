@@ -1,6 +1,6 @@
 import React from 'react';
 import Project from '../components/Project';
-
+import EVCharge from '../assets/image(2).png'
 const Portfolio = () => {
   // Define your project details
   const projects = [
@@ -14,7 +14,7 @@ const Portfolio = () => {
       name: 'EV-Charger-Locator (Project 2)',
       deployedLink: 'https://desolate-cove-89215-d9792a7c3caa.herokuapp.com/',
       githubLink: 'https://github.com/jwhit-commit/ev-charger-locator',
-      screenshot: '../assets/image(2).png',
+      screenshot: EVCharge,
     },
     {
       name: 'Sweat-Check (Project 3[Final Project])',
