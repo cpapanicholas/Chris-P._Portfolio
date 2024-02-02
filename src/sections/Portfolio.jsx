@@ -8,13 +8,13 @@ const Portfolio = () => {
       name: 'Crafty-Weather (Project 1)',
       deployedLink: 'https://cpapanicholas.github.io/Crafty-Weather/',
       githubLink: 'https://github.com/cpapanicholas/Crafty-Weather',
-      screenshot: 'src/assets/image-1.png',
+      screenshot: '../assets/image-1.png',
     },
     {
       name: 'EV-Charger-Locator (Project 2)',
       deployedLink: 'https://desolate-cove-89215-d9792a7c3caa.herokuapp.com/',
       githubLink: 'https://github.com/jwhit-commit/ev-charger-locator',
-      screenshot: 'src/assets/image(2).png',
+      screenshot: '../assets/image(2).png',
     },
     {
       name: 'Sweat-Check (Project 3[Final Project])',
@@ -30,20 +30,20 @@ const Portfolio = () => {
     },
     {
       name: 'CSS Assignment 2',
-      deployedLink: '',
-      githubLink: '',
+      deployedLink: 'https://cpapanicholas.github.io/Transcending-Seven-Nen/#',
+      githubLink: 'https://github.com/cpapanicholas/Transcending-Seven-Nen',
       screenshot: '',
     },
     {
       name: 'JavaScript Assignment 3',
-      deployedLink: '',
-      githubLink: '',
+      deployedLink: 'https://cpapanicholas.github.io/Baku-Taka-Nichi/',
+      githubLink: 'https://github.com/cpapanicholas/Baku-Taka-Nichi',
       screenshot: '',
     },
     {
       name: 'Web APIs Assignment 4',
-      deployedLink: '',
-      githubLink: '',
+      deployedLink: 'https://cpapanicholas.github.io/Epsilon-Gamma-Zeta/',
+      githubLink: 'https://github.com/cpapanicholas/Epsilon-Gamma-Zeta',
       screenshot: '',
     },
     {
