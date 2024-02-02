@@ -1,6 +1,11 @@
 import React from 'react';
 import Project from '../components/Project';
-import EVCharge from '../assets/image(2).png'
+import Crafty from '../assets/image-1.png';
+import EVCharge from '../assets/image(2).png';
+import SweatCheck from '../assets/SWEAT CHECK.png'
+import HTML from '../assets/HTML.png';
+import CSS from '../assets/CSS.png'
+import JavaScript from '../assets/JAVASCRIPT.png'
 const Portfolio = () => {
   // Define your project details
   const projects = [
@@ -8,7 +13,7 @@ const Portfolio = () => {
       name: 'Crafty-Weather (Project 1)',
       deployedLink: 'https://cpapanicholas.github.io/Crafty-Weather/',
       githubLink: 'https://github.com/cpapanicholas/Crafty-Weather',
-      screenshot: '../assets/image-1.png',
+      screenshot: Crafty,
     },
     {
       name: 'EV-Charger-Locator (Project 2)',
@@ -20,25 +25,25 @@ const Portfolio = () => {
       name: 'Sweat-Check (Project 3[Final Project])',
       deployedLink: 'https://sweat-check-1af5b01668d2.herokuapp.com/',
       githubLink: 'https://github.com/Seidler93/Sweat-Check',
-      screenshot: '',
+      screenshot: SweatCheck,
     },
     {
       name: 'HTML Assignment 1',
       deployedLink: 'https://cpapanicholas.github.io/transferable-hexa-nen/',
       githubLink: 'https://github.com/cpapanicholas/transferable-hexa-nen',
-      screenshot: '',
+      screenshot: HTML,
     },
     {
       name: 'CSS Assignment 2',
       deployedLink: 'https://cpapanicholas.github.io/Transcending-Seven-Nen/#',
       githubLink: 'https://github.com/cpapanicholas/Transcending-Seven-Nen',
-      screenshot: '',
+      screenshot: CSS,
     },
     {
       name: 'JavaScript Assignment 3',
       deployedLink: 'https://cpapanicholas.github.io/Baku-Taka-Nichi/',
       githubLink: 'https://github.com/cpapanicholas/Baku-Taka-Nichi',
-      screenshot: '',
+      screenshot: JavaScript,
     },
     {
       name: 'Web APIs Assignment 4',
@@ -49,49 +54,49 @@ const Portfolio = () => {
     {
       name: 'Third-Party-APIs Assignment 5',
       deployedLink: '',
-      githubLink: '',
+      githubLink: 'https://github.com/cpapanicholas/Gojo-Naka-Baya',
       screenshot: '',
     },
     {
       name: 'Server Side APIs Assignment 6',
-      deployedLink: '',
-      githubLink: '',
+      deployedLink: 'https://cpapanicholas.github.io/Ruku-Zed-Taka/',
+      githubLink: 'https://github.com/cpapanicholas/Ruku-Zed-Taka',
       screenshot: '',
     },
     {
       name: 'Node JS Assignment 7',
       deployedLink: '',
-      githubLink: '',
+      githubLink: 'https://github.com/cpapanicholas/Link-Forger-Zeta',
       screenshot: '',
     },
     {
       name: 'OOP Assignment 8',
       deployedLink: '',
-      githubLink: '',
+      githubLink: 'https://github.com/cpapanicholas/Lucy-David-Zero',
       screenshot: '',
     },
     {
       name: 'Express Assignment 9',
-      deployedLink: '',
-      githubLink: '',
+      deployedLink: 'https://quiet-earth-63154-a0c9072cfa32.herokuapp.com/',
+      githubLink: 'https://github.com/cpapanicholas/Vash-Kyoto',
       screenshot: '',
     },
     {
       name: 'SQL Assignment 10',
       deployedLink: '',
-      githubLink: '',
+      githubLink: 'https://github.com/cpapanicholas/Mirai-ga-nai',
       screenshot: '',
     },
     {
       name: 'ORM Assignment 11',
       deployedLink: '',
-      githubLink: '',
+      githubLink: 'https://github.com/cpapanicholas/Shi-wa-owaride-wanai',
       screenshot: '',
     },
     {
       name: 'MVC Assignment 12',
-      deployedLink: '',
-      githubLink: '',
+      deployedLink: 'https://boiling-cliffs-65366-fe833bd4a1cd.herokuapp.com/',
+      githubLink: 'https://github.com/cpapanicholas/Kaneki-MVC',
       screenshot: '',
     },
     {
@@ -125,7 +130,13 @@ const Portfolio = () => {
       screenshot: '',
     },
     {
-      name: 'PWA Assignment 15',
+      name: 'State Assignment 18',
+      deployedLink: '',
+      githubLink: '',
+      screenshot: '',
+    },
+    {
+      name: '',
       deployedLink: '',
       githubLink: '',
       screenshot: '',
