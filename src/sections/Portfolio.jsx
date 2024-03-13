@@ -13,6 +13,12 @@ const Portfolio = () => {
   // Define your project details
   const projects = [
     {
+      name: 'Relational-Playlist (Current Project[In Progress!])',
+      deployedLink: '',
+      githubLink: 'https://github.com/cpapanicholas/Relational-Playlist',
+      screenshot: RelationalPlaylist,
+    },
+    {
       name: 'Crafty-Weather (Project 1)',
       deployedLink: 'https://cpapanicholas.github.io/Crafty-Weather/',
       githubLink: 'https://github.com/cpapanicholas/Crafty-Weather',
@@ -31,49 +37,49 @@ const Portfolio = () => {
       screenshot: SweatCheck,
     },
     {
-      name: 'HTML Assignment 1',
+      name: 'HTML Assignment 1 (Basic Html Web Page)',
       deployedLink: 'https://cpapanicholas.github.io/transferable-hexa-nen/',
       githubLink: 'https://github.com/cpapanicholas/transferable-hexa-nen',
       screenshot: HTML,
     },
     {
-      name: 'CSS Assignment 2',
+      name: 'CSS Assignment 2 (First Portfolio)',
       deployedLink: 'https://cpapanicholas.github.io/Transcending-Seven-Nen/#',
       githubLink: 'https://github.com/cpapanicholas/Transcending-Seven-Nen',
       screenshot: CSS,
     },
     {
-      name: 'JavaScript Assignment 3',
+      name: 'JavaScript Assignment 3 (Password Generator)' ,
       deployedLink: 'https://cpapanicholas.github.io/Baku-Taka-Nichi/',
       githubLink: 'https://github.com/cpapanicholas/Baku-Taka-Nichi',
       screenshot: JavaScript,
     },
     {
-      name: 'Web APIs Assignment 4',
+      name: 'Web APIs Assignment 4 (Coding Quiz)',
       deployedLink: 'https://cpapanicholas.github.io/Epsilon-Gamma-Zeta/',
       githubLink: 'https://github.com/cpapanicholas/Epsilon-Gamma-Zeta',
       screenshot: WebAPI,
     },
     {
-      name: 'Third-Party-APIs Assignment 5',
+      name: 'Third-Party-APIs Assignment 5 (Work Day Scheduler)',
       deployedLink: '',
       githubLink: 'https://github.com/cpapanicholas/Gojo-Naka-Baya',
       screenshot: ThirdParty,
     },
     {
-      name: 'Server Side APIs Assignment 6',
+      name: 'Server Side APIs Assignment 6 (Weather DashBoard) ',
       deployedLink: 'https://cpapanicholas.github.io/Ruku-Zed-Taka/',
       githubLink: 'https://github.com/cpapanicholas/Ruku-Zed-Taka',
       screenshot: Server,
     },
     {
-      name: 'Node JS Assignment 7',
-      deployedLink: '',
+      name: 'Node JS Assignment 7 (ReadMe Generator)',
+      deployedLink: '(NONE)',
       githubLink: 'https://github.com/cpapanicholas/Link-Forger-Zeta',
       screenshot: '',
     },
     {
-      name: 'OOP Assignment 8',
+      name: 'OOP Assignment 8 ',
       deployedLink: '',
       githubLink: 'https://github.com/cpapanicholas/Lucy-David-Zero',
       screenshot: '',
@@ -104,13 +110,13 @@ const Portfolio = () => {
     },
     {
       name: 'CS Assignment 13',
-      deployedLink: '',
+      deployedLink: '(NONE)',
       githubLink: 'https://gist.github.com/cpapanicholas/4c3e2df25a938b6b82d52e1f7f9dcbe9',
       screenshot: '',
     },
     {
       name: 'NoSQL Assignment 14',
-      deployedLink: '',
+      deployedLink: '(NONE)',
       githubLink: 'https://github.com/cpapanicholas/Akanatsu-Social',
       video: 'https://drive.google.com/file/d/1WytJAob8E5SFEkzZkpUPL-yh3qFENaiK/view',
     },
@@ -138,13 +144,7 @@ const Portfolio = () => {
       screenshot: '',
     },
     {
-      name: '',
-      deployedLink: '',
-      githubLink: '',
-      screenshot: '',
-    },
-    {
-      name: 'Morse-Code Generator',
+      name: 'Morse-Code Generator(WORK IN PROGRESS)',
       deployedLink: '',
       githubLink: '',
       screenshot: '',

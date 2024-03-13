@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -26,43 +27,22 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Validate the form fields
-    let hasError = false;
 
-    if (formData.name.trim() === '') {
-      setErrors((prevErrors) => ({
-        ...prevErrors,
-        name: 'Name is required',
-      }));
-      hasError = true;
+    try {
+      await axios.post('/send-email', formData);
+      alert('Email sent successfully');
+      // Clear form fields after successful submission
+      setFormData({
+        name: '',
+        email: '',
+        message: '',
+      });
+    } catch (error) {
+      console.error('Error sending email:', error);
+      alert('Failed to send email. Please try again later.');
     }
-
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(formData.email)) {
-      setErrors((prevErrors) => ({
-        ...prevErrors,
-        email: 'Invalid email address',
-      }));
-      hasError = true;
-    }
-
-    if (formData.message.trim() === '') {
-      setErrors((prevErrors) => ({
-        ...prevErrors,
-        message: 'Message is required',
-      }));
-      hasError = true;
-    }
-
-    // If there's any error, don't submit the form
-    if (hasError) {
-      return;
-    }
-
-    // Handle form submission (you can add your logic here)
-    console.log('Form submitted:', formData);
   };
 
   return (
