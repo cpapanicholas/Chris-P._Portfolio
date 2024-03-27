@@ -7,7 +7,7 @@ const Footer = () => {
     <footer>
       <p>Connect with me on:</p>
       <div className="social-links">
-        <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/cpapanicholas" target="_blank" rel="noopener noreferrer">
           <FaGithub /> 
         </a>
         <a href="www.linkedin.com/in/christopher-papanicholas-b669a524b" target="_blank" rel="noopener noreferrer">

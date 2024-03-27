@@ -16,7 +16,6 @@ const Portfolio = () => {
       name: 'Relational-Playlist (Current Project[In Progress!])',
       deployedLink: '',
       githubLink: 'https://github.com/cpapanicholas/Relational-Playlist',
-      screenshot: RelationalPlaylist,
     },
     {
       name: 'Crafty-Weather (Project 1)',
@@ -54,12 +53,12 @@ const Portfolio = () => {
     //   githubLink: 'https://github.com/cpapanicholas/Baku-Taka-Nichi',
     //   screenshot: JavaScript,
     // },
-    // // {
-    // //   name: 'Web APIs Assignment 4 (Coding Quiz)',
-    // //   deployedLink: 'https://cpapanicholas.github.io/Epsilon-Gamma-Zeta/',
-    // //   githubLink: 'https://github.com/cpapanicholas/Epsilon-Gamma-Zeta',
-    // //   screenshot: WebAPI,
-    // // },
+    // {
+    //   name: 'Web APIs Assignment 4 (Coding Quiz)',
+    //   deployedLink: 'https://cpapanicholas.github.io/Epsilon-Gamma-Zeta/',
+    //   githubLink: 'https://github.com/cpapanicholas/Epsilon-Gamma-Zeta',
+    //   screenshot: WebAPI,
+    // },
     // {
     //   name: 'Third-Party-APIs Assignment 5 (Work Day Scheduler)',
     //   deployedLink: '',
@@ -126,30 +125,29 @@ const Portfolio = () => {
     //   githubLink: 'https://github.com/cpapanicholas/Aioto-PWA',
     //   screenshot: '',
     // },
-    // // {
-    // //   name: 'React Assignment 16',
-    // //   deployedLink: 'https://sparkling-gingersnap-7df8bb.netlify.app/',
-    // //   githubLink: 'https://github.com/cpapanicholas/Chris-P._Portfolio',
-    // // },
-    // // {
-    // //   name: 'MERN Assignment 17',
-    // //   deployedLink: '',
-    // //   githubLink: '',
-    // //   screenshot: '',
-    // // },
-    // // {
-    // //   name: 'State Assignment 18',
-    // //   deployedLink: '',
-    // //   githubLink: '',
-    // //   screenshot: '',
-    // // },
-    // // {
-    // //   name: 'Morse-Code Generator(WORK IN PROGRESS)',
-    // //   deployedLink: '',
-    // //   githubLink: '',
-    // //   screenshot: '',
-    // // }
-    // // Add more projects as needed
+    // {
+    //   name: 'React Assignment 16',
+    //   deployedLink: 'https://sparkling-gingersnap-7df8bb.netlify.app/',
+    //   githubLink: 'https://github.com/cpapanicholas/Chris-P._Portfolio',
+    // },
+    // {
+    //   name: 'MERN Assignment 17',
+    //   deployedLink: '',
+    //   githubLink: '',
+    //   screenshot: '',
+    // },
+    // {
+    //   name: 'State Assignment 18',
+    //   deployedLink: '',
+    //   githubLink: '',
+    //   screenshot: '',
+    // },
+    // {
+    //   name: 'Morse-Code Generator(WORK IN PROGRESS)',
+    //   deployedLink: '',
+    //   githubLink: '',
+    //   screenshot: '',
+    // }
   ];
 
   return (
