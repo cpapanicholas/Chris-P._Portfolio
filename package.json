@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "vite",
-    "start": "vite",
+    "start":  "vite",  
     "build": "vite build",
     "develop": "concurrently \"cd server && npm run watch\" \"cd src && npm run dev\"",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",

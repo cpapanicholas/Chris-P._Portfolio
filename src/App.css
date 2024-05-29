@@ -127,3 +127,41 @@ body {
     text-decoration: underline;
   }
   
+  .about-me-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial, sans-serif';
+    color: white;
+    line-height: 1.6;
+  }
+  
+  .about-me-container h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: lightslategray;
+    text-align: center;
+  }
+  
+  .about-me-container p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  
+  .about-me-container h3 {
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: lightslategray;
+  }
+  
+  .about-me-container ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .about-me-container ul li {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+  }
