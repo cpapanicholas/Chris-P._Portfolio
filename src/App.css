@@ -165,3 +165,77 @@ body {
     font-size: 1.1em;
     margin-bottom: 5px;
   }
+  .resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial, sans-serif';
+    color: white;
+    line-height: 1.6;
+  }
+  
+  .resume-container h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .resume-container .download-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #2980b9;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .resume-container .resume-section {
+    margin-bottom: 30px;
+  }
+  
+  .resume-container h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #2980b9;
+  }
+  
+  .resume-container .resume-item {
+    margin-bottom: 20px;
+  }
+  
+  .resume-container .resume-item h4 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
+  .resume-container .resume-item p, .resume-container .resume-item ul {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+  
+  .resume-container .resume-item ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .resume-container .resume-item ul li {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+  }
+  
+  .resume-container .skills-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .resume-container .skills-list li {
+    background-color: #ecf0f1;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border-radius: 3px;
+    display: inline-block;
+  }
+  
