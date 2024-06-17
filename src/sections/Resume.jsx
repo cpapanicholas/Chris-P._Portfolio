@@ -20,12 +20,7 @@ const Resume = () => {
           Throughout the course, I immersed myself in various projects, learning front-end and back-end technologies, including HTML, CSS, JavaScript, React, Node.js, MySQL, GraphQL, and MongoDB. I enjoyed the challenges and have been consistently practicing and studying coding since then. I love functional, organized, and efficient code, and I thrive in collaborative environments.
         </p>
         <p>
-          I am currently working on a workout smartphone app with my last project group. You can find a list of all my projects on my portfolio website.
-        </p>
-        <p>
-          <a href="https://sparkling-gingersnap-7df8bb.netlify.app/" target="_blank" rel="noopener noreferrer">
-            Portfolio Website
-          </a>
+          I am currently working to achieve a certification in Comp TI A+ and complete understanding of python as another language in my tool belt.
         </p>
       </section>
 
