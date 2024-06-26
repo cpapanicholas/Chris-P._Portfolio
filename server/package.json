@@ -1,19 +1,22 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend server for Chris Papanicholas' Portfolio",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "watch": "nodemon"
+    "watch": "nodemon server.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "chris-p._portfolio": "file:..",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2"
-  }
+  },
+  "author": "",
+  "license": "ISC"
 }

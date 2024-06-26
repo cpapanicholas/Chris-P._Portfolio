@@ -1,10 +1,13 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
+const cors = require('cors');
+require('dotenv').config();
 
 const app = express();
-const port = 3001;
+const port = process.env.PORT || 3001;
 
+app.use(cors());
 app.use(bodyParser.json());
 
 app.post('/send-email', (req, res) => {
@@ -13,16 +16,16 @@ app.post('/send-email', (req, res) => {
   let transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'cpapanicholas@gmail.com',
-      pass: 'Apps-9876'
-    }
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASS,
+    },
   });
 
   let mailOptions = {
-    from: 'your-email@gmail.com',
+    from: process.env.EMAIL_USER,
     to: 'recipient-email@example.com',
     subject: 'New message from portfolio contact form',
-    text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`
+    text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
   };
 
   transporter.sendMail(mailOptions, (error, info) => {

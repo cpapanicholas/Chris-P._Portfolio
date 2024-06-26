@@ -5,11 +5,12 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "vite",
-    "start":  "vite",  
+    "start": "vite",
     "build": "vite build",
-    "develop": "concurrently \"cd server && npm run watch\" \"cd src && npm run dev\"",
+    "develop": "concurrently \"npm run start --prefix server\" \"npm run dev --prefix .\"",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "install-all": "npm install && npm install --prefix server && npm install --prefix src"
   },
   "dependencies": {
     "axios": "^1.6.7",
